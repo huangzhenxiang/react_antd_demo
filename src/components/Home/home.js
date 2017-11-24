@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import './home.css'
-
+import { Button } from 'antd';
 class Home extends Component {
-  constructor (props) {
-    super(props);
-  }
   render () {
     return (
       <div className="home">
         home
+        <Button type='primary'>Button</Button>
       </div>
     )
   }
